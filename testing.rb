@@ -1,8 +1,5 @@
-count = 1
-
 loop do
-  status = count.odd? ? 'odd' : 'even'
-  puts "#{count} is #{status}!"
-  count += 1
-  break if count == 5
+  number = rand(100)
+  puts number
+  break if number >= 0 && number <= 10
 end

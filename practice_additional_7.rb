@@ -3,4 +3,4 @@ result = {}
 
 statement.each_char { |char| result[char] = statement.count(char) }
 
-result
+return result
